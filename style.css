@@ -1,6 +1,7 @@
 body{
 
-    background-color: dodgerblue;
+    background-image: url("background.gif");
+    background-size: cover;
     color: black;
     
     }
@@ -8,13 +9,15 @@ body{
     .heading{
     
     width: 80%;
-    font-size: larger;
+    font-size: larger; 
+    color: cyan;
+    background-color: black;
     
     }
     
     .name_of_obj{
     
-    color: crimson;
+    color: rgb(168, 117, 22);
     
     }
     
@@ -28,6 +31,6 @@ body{
     
     #result_obj_name , #result_obj_acc{
     
-    color: crimson;
+    color:rgb(6, 172, 194);
     
     }
